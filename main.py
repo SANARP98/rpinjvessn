@@ -21,3 +21,4 @@ print(data)
 # Access data
 for stock in response["data"]:
     print(f"Stock: {stock['tradingSymbol']}, Avg Price: {stock['avgCostPrice']}, LTP: {stock['lastTradedPrice']}")
+    
